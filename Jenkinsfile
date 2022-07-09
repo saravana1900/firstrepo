@@ -32,6 +32,7 @@ pipeline {
         stage('Stage 4 - If you hear something like Ask VB') {
             steps {
                 echo "Go to Stage 1"
+                echo "Follow the flow"
                 
                 
             }
