@@ -1,28 +1,39 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('Stage 1 - Tired of Work Culture') {
             steps {
-                echo "Hello Europe!"
-                sh "echo Hello from the shell"
-                sh "hostname"
-                sh "uptime"
+                echo "Tired of Work culture and growth in India!"
+                sh "echo Looking for best Life style and culture"
+                
             }
         }
-        stage('Prepare for Interview') {
+        stage('Stage 2 - Resign') {
             steps {
-                echo "Hello Devops"
-                sh "echo Enjoying AWS"
-                sh "hostname"
-                sh "uptime"
+                echo "Quit the current Job"
+                sh "Take a Break"
+                
             }
         }
-       stage('Tier2 Visa') {
+       stage('Stage 3 - Prepare for Interview') {
             steps {
-                echo "Hello Europe!"
-                sh "echo Enjoying whisky"
-                sh "hostname"
-                sh "uptime"
+                echo "Prepare for Interview"
+                sh "echo Look for a job outside India"
+                
+            }
+        }
+       stage('Stage 4 - Find a job and Vacate India') {
+            steps {
+                echo "Find a Job"
+                sh "echo Vacate India"
+                
+            }
+        }
+        stage('Stage 4 - If you hear something like Ask VB') {
+            steps {
+                echo "Go to Stage 1"
+                
+                
             }
         }
 
